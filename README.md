@@ -1,1 +1,1 @@
-# redux-practice
+# testing-redux
