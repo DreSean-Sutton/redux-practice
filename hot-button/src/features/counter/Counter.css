@@ -1,0 +1,41 @@
+.column {
+    padding: 1.5rem 6rem;
+    border: 2px solid black;
+    border-radius: 10rem;
+    cursor: pointer;
+    transition: 100ms transform
+}
+
+.column:active {
+    transform: translateY(10px);
+}
+
+.hotbutton {
+    font-size: 2rem;
+    user-select: none;
+}
+
+.freezing {
+    background-color: rgba(0, 0, 255, 0.803);
+}
+
+.cold {
+    background-color: rgba(95, 0, 237, 0.803);
+}
+
+.warm {
+    background-color: orange;
+}
+
+.hot {
+    background-color: orangered;
+}
+
+.ohno {
+    background-color: rgb(6, 125, 236)
+}
+
+.nuclear {
+    color: white;
+    background-color: rgb(255, 0, 255);
+}
